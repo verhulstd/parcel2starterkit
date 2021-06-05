@@ -1,0 +1,19 @@
+{
+  "name": "bundlers",
+  "scripts": {
+    "start": "parcel serve ./src/index.html --open",
+    "build": "npm run clean && parcel build ./src/index.html --dist-dir ./out --no-source-maps",
+    "clean": "rm -rf ./.parcel-cache ./dist ./out",
+    "serve": "live-server ./out",
+    "deploy": "surge ./out --domain https://PUT_YOUR_SURGE_DOMAIN_HERE"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@parcel/babel-preset-env": "^2.0.0-alpha.3",
+    "@parcel/transformer-image": "^2.0.0-beta.3.1",
+    "@parcel/transformer-sass": "^2.0.0-beta.3.1",
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.0",
+    "posthtml-include": "^1.7.1"
+  }
+}
