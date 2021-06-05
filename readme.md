@@ -8,9 +8,9 @@
 
      1. "git clone https://github.com/verhulstd/parcel2starterkit folder"
      2. "cd FOLDERNAME"
-     3. code .
-     4. npm install (npm i)
-     5. npm run start (npm start)
+     3. "code ."
+     4. "npm install" (npm i)
+     5. "npm run start" (npm start)
 
 ## Features
 
