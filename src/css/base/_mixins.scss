@@ -1,17 +1,4 @@
-// Use mixins like this: @include button();
-
-@mixin button($bw, $c) {
-  background-color: $c;
-  border: {
-    color: white;
-    style: solid;
-    width: 5px;
-  }
-  color: #fff;
-  font-family: "Ford Antenna";
-  font-size: 20px;
-  padding: 10px;
-}
+// Use mixins like this: @include make-col(4, 20px);
 
 @mixin make-col($cols, $gap) {
   display: flex;
