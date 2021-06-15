@@ -2,6 +2,7 @@
 
 .env*
 .parcel-cache
+dist/
 
 # dependencies
 /node_modules

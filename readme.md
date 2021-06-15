@@ -1,5 +1,7 @@
 # ParcelJS (v2) starterkit for syntra front-end development
 
+--) [Parcel version 2 website](https://v2.parceljs.org/)
+
 ## Prerequisites (_do this once_)
 
     npm i -g parcel@next surge live-server
@@ -12,6 +14,8 @@
      4. #.gitignore rename to .gitignore
      5. "npm install" (npm i)
      6. "npm run start" (npm start)
+     7. A new GitHub repo can be made and attached by running "git remote set-url origin <new-repo-url>"
+     8. npm libraries can be installed and then imported in the index.js file, e.g.: import randomColor from 'randomcolor';
 
 ## Features
 

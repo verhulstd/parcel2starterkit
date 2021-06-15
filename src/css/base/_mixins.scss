@@ -1,3 +1,5 @@
+// Use mixins like this: @include button();
+
 @mixin button($bw, $c) {
   background-color: $c;
   border: {
@@ -31,6 +33,17 @@
   justify-content: $justify;
   align-items: $align;
 }
+
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+  width: 100%;
+  padding-top: ($height / $width) * 100%; // Set the element’s vertical padding to be (h / w) * 100 percent, for an aspect ratio of w:h.
+  > * {
+    position: absolute;
+  }
+}
+
+// Use % placeholder selector like this: @extend %image;
 
 %responsive {
   display: block;
