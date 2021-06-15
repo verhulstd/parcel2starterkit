@@ -4,6 +4,10 @@
 @use "./base/fonts";
 @use "../icons/style.css";
 
+html {
+  font-size: 62, 5%;
+}
+
 $oranje: orange;
 body {
   margin: 10px;
