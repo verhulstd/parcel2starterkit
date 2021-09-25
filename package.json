@@ -9,8 +9,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
-    "@parcel/transformer-image": "^2.0.0-rc.0",
-    "@parcel/transformer-sass": "^2.0.0-rc.0",
     "autoprefixer": "^10.2.6",
     "postcss": "^8.3.0",
     "posthtml-include": "^1.7.1"
