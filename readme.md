@@ -8,14 +8,17 @@
 
 ## Install repo and start development
 
-     1. "git clone https://github.com/verhulstd/parcel2starterkit folder"
-     2. "cd FOLDERNAME"
-     3. "code ."
-     4. #.gitignore rename to .gitignore
-     5. "npm install" (npm i)
-     6. "npm run start" (npm start)
-     7. A new GitHub repo can be made and attached by running "git remote set-url origin <new-repo-url>"
-     8. npm libraries can be installed and then imported in the index.js file, e.g.: import randomColor from 'randomcolor';
+    1. md app
+    2. cd app
+    3. code .
+    4. git clone https://github.com/verhulstd/parcel2starterkit.git .
+    5. mv #.gitignore .gitignore
+    6. rm -rf .git
+    7. git init
+    8. npm i
+    9. npm start
+    10. A new GitHub repo can be made and attached by running "git remote set-url origin <new-repo-url>"
+    11. npm libraries can be installed and then imported in the index.js file, e.g.: import randomColor from 'randomcolor';
 
 ## Features
 
