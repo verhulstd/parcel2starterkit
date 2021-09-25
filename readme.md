@@ -12,7 +12,7 @@
     2. cd app
     3. code .
     4. git clone https://github.com/verhulstd/parcel2starterkit.git .
-    5. mv #.gitignore .gitignore
+    5. mv \#.gitignore .gitignore
     6. rm -rf .git
     7. git init
     8. npm i
