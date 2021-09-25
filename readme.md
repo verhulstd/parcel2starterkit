@@ -1,10 +1,10 @@
 # ParcelJS (v2) starterkit for syntra front-end development
 
---) [Parcel version 2 website](https://v2.parceljs.org/)
+[Parcel version 2 website](https://v2.parceljs.org/)
 
 ## Prerequisites (_do this once_)
 
-    npm i -g parcel@next surge live-server
+    npm i -g parcel surge live-server
 
 ## Install repo and start development
 
