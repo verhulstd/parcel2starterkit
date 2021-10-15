@@ -15,5 +15,12 @@
   },
   "dependencies": {
     "@parcel/babel-preset-env": "^2.0.0-alpha.3"
-  }
+  },
+  "browserslist": [
+  "last 3 and_chr versions",
+  "last 3 chrome versions",
+  "last 3 opera versions",
+  "last 3 ios_saf versions",
+  "last 3 safari versions"
+]
 }
